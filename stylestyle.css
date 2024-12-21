@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-main-cont{
+    background-color: #585C79;
+}
+
+.navbar{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #2C6396;
+}
+
+.navbar img{
+    height: 90px;
+}
+
+.navbar div{
+    font-size: 13px;
+}
+
+.main-cont .m-inr{
+    display: flex;
+}
+
+.m-inr .sidebar{
+    background-color: red;
+    /* height: 10rem; */
+    width: 20rem;
+}
+
+.m-inr .main-content{
+    background-color: gren;
+}
+
+.sidebar-links{
+    list-style-type: none;
+}
