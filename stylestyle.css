@@ -26,9 +26,10 @@
     font-size: 13px;
 }
 
-.navbar h2{
+.navbar h2 {
     font-size: 20px;
 }
+
 .main-cont .m-inr {
     display: flex;
 }
@@ -42,11 +43,13 @@
 .m-inr .sidebar a {
     color: white;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .m-inr .sidebar li {
     padding: 10px 3px 10px 1rem;
 }
+
 .m-inr .sidebar li:not(:last-of-type) {
     border-bottom: 1px solid rgb(194, 194, 194);
 }
@@ -54,7 +57,8 @@
 .m-inr .sidebar li i {
     margin-right: 1rem;
 }
-.m-inr .sidebar li>i:last-of-type{
+
+.m-inr .sidebar li>i:last-of-type {
     float: right;
 }
 
@@ -71,25 +75,147 @@
     list-style-type: none;
 }
 
-.main-content{
+.main-content {
     display: flex;
+    width: 100%;
     box-sizing: border-box;
     padding: 13px;
     gap: 13px;
 }
 
-.main-content .main-left{
-    background-color: red;
-    min-width: 70%;
-}
-.main-content .main-right{
-    background-color: green;
-    width: 30%;
+.main-content .main-left {
+    flex: 0 0 70%;
 }
 
-.banner-slider{
+.main-content .main-right {
+    flex: 0 0 28.5%;
+}
+
+.banner-slider-main {
     width: 100%;
-    height: 20rem;
+    height: 21rem;
     background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
+.banner-slider img {
+    width: 100%;
+    height: 19.8rem;
+}
+
+.block {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.block-heading {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.norm-txt {
+    padding: 1rem;
+    color: white;
+    font-style: italic;
+}
+
+.vision-block .block-heading {
+    background-color: #FAAC36;
+}
+
+
+.vision-block .norm-txt {
+    background-color: #FFB539;
+}
+
+.mission-block .block-heading {
+    background-color: #2398F8;
+}
+
+
+.mission-block .norm-txt {
+    background-color: #249FFF;
+}
+
+.values-block .block-heading {
+    background-color: #9E9E9E;
+}
+
+
+.values-block .norm-txt {
+    background-color: #A6A6A8;
+}
+
+.qp-block .block-heading {
+    background-color: #10A6A8;
+}
+
+
+.qp-block .norm-txt {
+    background-color: #11AEAF;
+}
+
+.qp-block .norm-txt p:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+.main-right .block:first-of-type {
+    margin-top: 0;
+}
+
+.main-right .block-heading {
+    background-color: #2C76B9;
+    justify-content: start;
+}
+
+.main-right .block-heading i {
+    margin: 0 12px;
+}
+
+.main-right .block-content {
+    background-color: white;
+    min-height: 2rem;
+    max-height: 10rem;
+}
+
+.main-right .canteen-m {
+    padding: 1rem 2rem;
+}
+
+.main-right .canteen-m p {
+    font-weight: 600;
+    color: green;
+}
+
+.main-right .canteen-m ul {
+    padding-left: 1.5rem;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.buttons {
+    background-color: #F6F6F6;
+    padding: 10px 1rem;
+    text-align: right;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.buttons button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.buttons button:first-of-type {
+    margin-right: 10px;
 }
